@@ -1,0 +1,19 @@
+Please follow the following steps
+
+1. type make on the command line to build both client and server
+
+2. Run the server by typing ./stringServer
+
+3. It should print out SERVER_ADDRESS <addr> and SERVER_PORT <port>
+
+4. On another terminal, set the environment variable using the <addr> and <port> you got from the server
+	export SERVER_ADDRESS="<addr>"
+	export SERVER_PORT="<port>"
+
+5. Run the client by typing ./stringClient
+
+6. Type the input and the translation will come up in couple second
+
+7. Press ctrl D to terminate the client
+
+Note that server will keep running and are able to take up to 5 clients simultanuously 
